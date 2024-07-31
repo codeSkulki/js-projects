@@ -8,4 +8,11 @@ function timesTables(num){
 // this is an example of using it
 timesTables(9);
 
-//this is where I will write a simple webpage that allows users to input their own number from a page and have a simple UI/display
+// html setup?
+const message = 'Hello world' // Try edit me
+
+// Update header text
+document.querySelector('#header').innerHTML = message
+
+// Log to console
+console.log(message)
