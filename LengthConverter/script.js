@@ -1,3 +1,12 @@
 //this function takes a length in inches and converts it to feet+inches
 
-//something like: num%12 remove(remainder) = feet (12*remainder=additional inches) result = (feet) & (inches)
+function feetAndInches(inches){
+    if (typeof inches === "number"){
+        return `${Math.floor(inches/12)}ft ${inches%12}in`
+    }else{
+        return `Please enter a number.`
+    }
+    
+}
+
+console.log(feetAndInches(169.5));

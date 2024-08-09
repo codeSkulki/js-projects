@@ -8,11 +8,3 @@ function timesTables(num){
 // this is an example of using it
 timesTables(9);
 
-// html setup?
-const message = 'Hello world' // Try edit me
-
-// Update header text
-document.querySelector('#header').innerHTML = message
-
-// Log to console
-console.log(message)
